@@ -11,7 +11,10 @@ public class Producer {
     }
 
     public void produce(String productName, String productId) throws StoreFullException {
-        store.add(new Product(productName, productId));
+        Product product = new Product();
+        product.setName(productName);
+        product.setId(productId);
+        store.add(product);
     }
 
 }
