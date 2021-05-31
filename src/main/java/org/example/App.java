@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.ex01.Producer;
 import org.example.exception.StoreFullException;
 
 /**

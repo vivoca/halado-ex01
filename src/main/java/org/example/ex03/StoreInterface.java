@@ -1,6 +1,6 @@
-package org.example;
+package org.example.ex03;
 
 public interface StoreInterface extends StoreReaderInterface, StoreWriterInterface {
-    public void reset();
-    public int getProductCount();
+	public void reset();
+	public int getProductCount();
 }

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.ex01;
 
 import org.example.exception.StoreEmptyException;
 import org.example.exception.StoreFullException;

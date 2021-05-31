@@ -1,4 +1,4 @@
-package org.example;
+package org.example.ex01;
 
 public class Product {
 
